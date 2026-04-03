@@ -2,37 +2,46 @@ package com.aktech.bean;
 
 
 
-public class Programer {
+public class Programer 
+{
 	private String name;
 	private Computer comp;
 
-	public Programer() {
+	public Programer() 
+	{
 		super();
 		System.out.println("Programmer Bean Created");
 	}
 
-	public String getName() {
+	public String getName() 
+	{
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(String name) 
+	{
 		this.name = name;
 	}
 
-	public Computer getComp() {
+	public Computer getComp() 
+	{
 		return comp;
 	}
 
-	public void setComp(Computer comp) {
+	public void setComp(Computer comp) 
+	{
 		this.comp = comp;
 	}
 
-	public void WriteCode() {
+	public void WriteCode() 
+	{
 		boolean res = comp.start();
-		if(res) {
+		if(res) 
+		{
 			System.out.println("Started Coading");
 		}
-		else {
+		else 
+		{
 			System.out.println("Cant Coding Started");
 		}
 		

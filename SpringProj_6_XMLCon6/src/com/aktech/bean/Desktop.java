@@ -3,6 +3,7 @@ package com.aktech.bean;
 public class Desktop implements Computer{
 
 	public Desktop() {
+		super();
 		System.out.println("Desktop object created");
 	}
 	

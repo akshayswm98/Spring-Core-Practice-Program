@@ -18,7 +18,7 @@ public class UseProgramer {
 		p1.WriteCode();
 		System.out.println("======================================");
 		
-		System.out.println("Second Programmer Name: "+p2.getName());
+		System.out.println("Second Programer Name: "+p2.getName());
 		p2.WriteCode();
 	
 		
